@@ -31,6 +31,14 @@ class Program
                     
                 }
 
+
+                if (counter >= 5)
+                {
+                    Console.WriteLine("Safety limit reached. Routine stopped.");
+                    break;
+                }
+                
+                
                 
             }
             else if (choice == 2)
@@ -43,7 +51,7 @@ class Program
         }
         while (choice == 1 || choice == 2);
 
-        
+
         
         
         
