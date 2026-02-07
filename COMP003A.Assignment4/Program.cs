@@ -24,13 +24,18 @@ class Program
                 
                 counter++;
                 Console.WriteLine($"Routine {counter} Completed!!");
-                
+
+                if (counter == 3)
+                {
+                    Console.WriteLine($"Step {counter} is restricted and was skipped.");
+                    
+                }
 
                 
             }
             else if (choice == 2)
             {
-                Console.WriteLine($"Progress:\n{counter} routines completed!");
+                Console.WriteLine($"Current Progress: {counter} steps completed!");
             }
 
             
